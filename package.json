@@ -15,7 +15,7 @@
     "iframe-resizer": "^4.2.10",
     "notistack": "^0.9.14",
     "opus-media-recorder": "^0.8.0",
-    "qr-code-styling": "^1.0.1",
+    "qr-code-styling": "^1.5.0",
     "react": "^16.12.0",
     "react-cropper": "^2.0.0",
     "react-dom": "^16.12.0",
