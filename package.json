@@ -11,7 +11,7 @@
     "crypto-js": "^4.0.0",
     "emoji-mart": "^3.0.0",
     "emoji-regex": "^8.0.0",
-    "i18next": "^19.3.3",
+    "i18next": "^19.9.2",
     "iframe-resizer": "^4.2.10",
     "notistack": "^0.9.14",
     "opus-media-recorder": "^0.8.0",
