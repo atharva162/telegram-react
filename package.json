@@ -23,7 +23,8 @@
     "react-router-dom": "^5.0.0",
     "react-scripts": "^3.1.1",
     "react-transition-group": "^4.3.0",
-    "tdweb": "^1.7.2"
+    "tdweb": "^1.7.2",
+    "@snyk/protect": "latest"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
@@ -39,7 +40,9 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "stats": "react-app-rewired build --bundle-report && npx webpack-bundle-analyzer ./build/bundle-stats.json"
+    "stats": "react-app-rewired build --bundle-report && npx webpack-bundle-analyzer ./build/bundle-stats.json",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "customize-cra": "^0.9.1",
@@ -57,5 +60,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "snyk": true
 }
